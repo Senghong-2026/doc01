@@ -392,4 +392,4 @@ Most platforms keep deployment history:
 
 ## Next Steps
 
-Learn about [APIs & Data Fetching](/guide/apis-data-fetching) to connect your frontend to backend services.
+Learn about [APIs & Data Fetching](/guide/skills/apis-data-fetching) to connect your frontend to backend services.

@@ -431,4 +431,4 @@ Optimize how your pages appear when shared.
 
 ## Next Steps
 
-Learn about [Web Storage](/guide/web-storage) to store data in the browser.
+Learn about [Web Storage](/guide/skills/web-storage) to store data in the browser.

@@ -467,4 +467,4 @@ const posts = await fetch('https://jsonplaceholder.typicode.com/posts')
 
 ## Next Steps
 
-Learn about [Package Managers](/guide/package-managers) to manage your project dependencies.
+Learn about [Package Managers](/guide/environment/package-managers) to manage your project dependencies.

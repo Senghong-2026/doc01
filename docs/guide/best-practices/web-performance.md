@@ -408,4 +408,4 @@ Set limits to prevent regression:
 
 ## Next Steps
 
-Learn about [Debugging Basics](/guide/debugging) to troubleshoot issues in your optimized websites.
+Learn about [Debugging Basics](/guide/skills/debugging) to troubleshoot issues in your optimized websites.
