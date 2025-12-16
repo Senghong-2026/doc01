@@ -49,3 +49,24 @@ A complete JavaScript tutorial covering:
 - **Advanced**: Async Programming, ES6+, OOP, Design Patterns
 
 [Start Learning JavaScript →](/guide/javascript/)
+
+---
+
+## About the Author
+
+<div class="creator-section">
+
+### Hang Senghong
+
+Full Stack Developer specializing in Frontend Development with 3+ years of experience building scalable, high-performance web applications. Skilled in automated testing and delivering exceptional user experiences.
+
+**Tech Stack:**
+- **JavaScript/TypeScript**: Vue.js, Nuxt.js, Nest.js, Express.js, Hono
+- **Frontend**: Vue.js, Nuxt.js, TypeScript, Tailwind CSS
+- **Backend**: Nest.js, Express.js, .NET Core, C#
+- **Database**: SQL Server, NoSQL (MongoDB, Firebase)
+- **Tools**: Docker, Git
+
+[Visit Portfolio →](https://senghong.pages.dev/) | [LinkedIn](https://www.linkedin.com/in/senghong/)
+
+</div>

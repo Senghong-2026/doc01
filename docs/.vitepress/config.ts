@@ -13,7 +13,8 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/' },
           { text: 'HTML', link: '/guide/html/' },
-          { text: 'JavaScript', link: '/guide/javascript/' }
+          { text: 'JavaScript', link: '/guide/javascript/' },
+          { text: 'Author', link: '/creator' }
         ],
         sidebar: {
           '/guide/html/': [
