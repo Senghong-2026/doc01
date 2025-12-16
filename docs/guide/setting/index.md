@@ -1,3 +1,10 @@
 # Setting Page
 
-This is new setting 1
+This is new Typescript code 
+
+```ts:line-numbers
+export function sum(a: number, b: number) {
+  return a + b
+}
+```
+
