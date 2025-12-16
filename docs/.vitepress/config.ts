@@ -16,6 +16,7 @@ export default defineConfig({
         logo: '/favicon.svg',
         nav: [
           { text: 'Home', link: '/' },
+          { text: 'Guide', link: '/guide/' },
           { text: 'HTML', link: '/guide/html/' },
           { text: 'CSS', link: '/guide/css/' },
           { text: 'JavaScript', link: '/guide/javascript/' },
@@ -23,6 +24,65 @@ export default defineConfig({
           { text: 'Author', link: '/creator' }
         ],
         sidebar: {
+          '/guide/': [
+            {
+              text: 'Fundamentals',
+              items: [
+                { text: 'Introduction', link: '/guide/' },
+                { text: 'What is a Website?', link: '/guide/fundamentals/what-is-website' },
+                { text: 'How the Web Works', link: '/guide/fundamentals/how-web-works' },
+                { text: 'Web Development Overview', link: '/guide/fundamentals/web-development-overview' },
+                { text: 'Getting Started', link: '/guide/fundamentals/getting-started' }
+              ]
+            },
+            {
+              text: 'Development Environment',
+              items: [
+                { text: 'Command Line Basics', link: '/guide/environment/command-line' },
+                { text: 'Code Editors', link: '/guide/environment/code-editors' },
+                { text: 'Package Managers', link: '/guide/environment/package-managers' }
+              ]
+            },
+            {
+              text: 'Essential Skills',
+              items: [
+                { text: 'Developer Tools', link: '/guide/skills/developer-tools' },
+                { text: 'Version Control (Git)', link: '/guide/skills/version-control' },
+                { text: 'Debugging Basics', link: '/guide/skills/debugging' },
+                { text: 'APIs & Data Fetching', link: '/guide/skills/apis-data-fetching' },
+                { text: 'Working with Forms', link: '/guide/skills/forms' },
+                { text: 'JSON & Data Formats', link: '/guide/skills/json-data' },
+                { text: 'Regular Expressions', link: '/guide/skills/regex' },
+                { text: 'Web Storage', link: '/guide/skills/web-storage' }
+              ]
+            },
+            {
+              text: 'Best Practices',
+              items: [
+                { text: 'Responsive Design', link: '/guide/best-practices/responsive-design' },
+                { text: 'Web Accessibility', link: '/guide/best-practices/web-accessibility' },
+                { text: 'Web Performance', link: '/guide/best-practices/web-performance' },
+                { text: 'Web Security', link: '/guide/best-practices/web-security' },
+                { text: 'Browser Compatibility', link: '/guide/best-practices/browser-compatibility' },
+                { text: 'SEO Basics', link: '/guide/best-practices/seo-basics' }
+              ]
+            },
+            {
+              text: 'Deployment',
+              items: [
+                { text: 'Web Hosting & Deployment', link: '/guide/deployment/web-hosting' }
+              ]
+            },
+            {
+              text: 'Tutorials',
+              items: [
+                { text: 'HTML', link: '/guide/html/' },
+                { text: 'CSS', link: '/guide/css/' },
+                { text: 'JavaScript', link: '/guide/javascript/' },
+                { text: 'TypeScript', link: '/guide/typescript/' }
+              ]
+            }
+          ],
           '/guide/html/': [
             {
               text: 'HTML Tutorial',
