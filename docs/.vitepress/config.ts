@@ -3,9 +3,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Tutorial',
   description: 'Programming Tutorials',
-  base: '/docs/',
+  base: '/doc01/',
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/docs/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/doc01/favicon.svg' }],
   ],
 
   locales: {
