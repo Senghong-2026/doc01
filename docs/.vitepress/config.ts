@@ -4,15 +4,20 @@ export default defineConfig({
   title: 'Tutorial',
   description: 'Programming Tutorials',
   base: '/doc01/',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/doc01/favicon.svg' }],
+  ],
 
   locales: {
     root: {
       label: 'English',
       lang: 'en',
       themeConfig: {
+        logo: '/favicon.svg',
         nav: [
           { text: 'Home', link: '/' },
           { text: 'HTML', link: '/guide/html/' },
+          { text: 'CSS', link: '/guide/css/' },
           { text: 'JavaScript', link: '/guide/javascript/' },
           { text: 'Author', link: '/creator' }
         ],
@@ -46,6 +51,42 @@ export default defineConfig({
                   items: [
                     { text: 'Media', link: '/guide/html/07-media' },
                     { text: 'Advanced Features', link: '/guide/html/08-advanced' }
+                  ]
+                }
+              ]
+            }
+          ],
+          '/guide/css/': [
+            {
+              text: 'CSS Tutorial',
+              items: [
+                { text: 'Introduction', link: '/guide/css/' },
+                {
+                  text: 'Beginner',
+                  collapsed: false,
+                  items: [
+                    { text: 'Basics', link: '/guide/css/01-basics' },
+                    { text: 'Colors & Backgrounds', link: '/guide/css/02-colors' },
+                    { text: 'Typography', link: '/guide/css/03-typography' }
+                  ]
+                },
+                {
+                  text: 'Intermediate',
+                  collapsed: false,
+                  items: [
+                    { text: 'Box Model', link: '/guide/css/04-box-model' },
+                    { text: 'Layout', link: '/guide/css/05-layout' },
+                    { text: 'Flexbox', link: '/guide/css/06-flexbox' }
+                  ]
+                },
+                {
+                  text: 'Advanced',
+                  collapsed: false,
+                  items: [
+                    { text: 'Grid', link: '/guide/css/07-grid' },
+                    { text: 'Responsive Design', link: '/guide/css/08-responsive' },
+                    { text: 'Animations', link: '/guide/css/09-animations' },
+                    { text: 'Advanced Techniques', link: '/guide/css/10-advanced' }
                   ]
                 }
               ]

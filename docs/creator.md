@@ -1,5 +1,26 @@
 # About the Author
 
+<div class="profile-header">
+  <img src="/profile.jpg" alt="Hang Senghong" class="profile-image" />
+</div>
+
+<style>
+.profile-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--vp-c-brand-1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+</style>
+
 ## Hang Senghong
 
 **Full Stack Developer specializing in Frontend Development** with over 3 years of professional experience. Passionate about building scalable, high-performance web applications with clean, maintainable code. Experienced in the complete software development lifecycle, including automated testing, code review, and continuous integration. Committed to delivering exceptional user experiences through modern frontend technologies and best practices.
@@ -39,24 +60,22 @@
 ### Database
 | Technology | Proficiency |
 |------------|-------------|
-| SQL Server | Advanced |
-| NoSQL (MongoDB, Firebase) | Advanced |
-| Firebase | Intermediate |
+| MySql | Intermediate |
+| SQL Server | Intermediate |
+| NoSQL (MongoDB, Firebase) | Intermediate |
 
 ### Testing
 | Technology | Proficiency |
 |------------|-------------|
-| Vitest | Advanced |
-| Jest | Advanced |
+| Postman | Intermediate |
 | Cypress | Intermediate |
-| Playwright | Intermediate |
 
 ### DevOps & Tools
 | Technology | Proficiency |
 |------------|-------------|
-| Docker | Intermediate |
 | Git | Advanced |
 | CI/CD | Intermediate |
+| Docker | Medium |
 
 ---
 
@@ -101,6 +120,7 @@ Continuous learning through online courses, documentation, and hands-on projects
 - [Portfolio Website](https://senghong.pages.dev/)
 - [LinkedIn](https://www.linkedin.com/in/senghong/)
 - [Telegram](https://t.me/senghongH)
+- [Twitter(X)](https://x.com/Hongprogrammer)
 <!-- - [GitHub](https://github.com/senghong) -->
 
 ---
