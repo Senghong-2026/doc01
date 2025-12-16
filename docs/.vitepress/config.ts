@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'My Docs',
   description: 'VitePress documentation',
+  base: '/doc01/',
 
 
   themeConfig: {
