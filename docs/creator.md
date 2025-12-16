@@ -1,24 +1,50 @@
 # About the Author
 
 <div class="profile-header">
-  <img src="/profile.jpg" alt="Hang Senghong" class="profile-image" />
+  <div class="profile-ring">
+    <img src="/profile.jpg" alt="Hang Senghong" class="profile-image" />
+  </div>
 </div>
 
 <style>
 .profile-header {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin: 3rem 0;
+}
+
+.profile-ring {
+  padding: 4px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    var(--vp-c-brand-1),
+    var(--vp-c-brand-2, #6ee7b7)
+  );
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-ring:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
 }
 
 .profile-image {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid var(--vp-c-brand-1);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: var(--vp-c-bg);
 }
+
+@media (max-width: 640px) {
+  .profile-image {
+    width: 140px;
+    height: 140px;
+  }
+}
+
 </style>
 
 ## Hang Senghong

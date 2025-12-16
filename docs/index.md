@@ -4,30 +4,32 @@ layout: home
 hero:
   name: Programming Tutorials
   text: Learn to Code from Basics to Advanced
-  tagline: Comprehensive guides for modern programming languages and technologies
+  tagline: Comprehensive guides for HTML, CSS, JavaScript, and TypeScript
   actions:
     - theme: brand
       text: Start with HTML
       link: /guide/html/
     - theme: alt
-      text: Learn JavaScript
-      link: /guide/javascript/
+      text: Learn TypeScript
+      link: /guide/typescript/
 
 features:
   - icon: 🌐
     title: HTML
     details: Learn the foundation of web development. Master HTML structure, forms, semantic markup, and accessibility.
     link: /guide/html/
-  - icon: 📚
+  - icon: 🎨
+    title: CSS
+    details: Style your websites with CSS. Learn selectors, layouts, Flexbox, Grid, animations, and responsive design.
+    link: /guide/css/
+  - icon: 📜
     title: JavaScript
     details: Master JavaScript from fundamentals to advanced patterns including ES6+, async programming, and OOP.
     link: /guide/javascript/
-  - icon: 🚀
-    title: Beginner Friendly
-    details: Start from the basics with clear explanations, practical examples, and hands-on exercises.
-  - icon: 🎯
-    title: Progressive Learning
-    details: Structured tutorials that build upon each other, taking you from beginner to advanced.
+  - icon: 🔷
+    title: TypeScript
+    details: Add type safety to your JavaScript. Learn types, interfaces, generics, and advanced type manipulation.
+    link: /guide/typescript/
 ---
 
 ## Available Tutorials
@@ -42,6 +44,16 @@ The foundation of every website. Learn to structure web content properly.
 
 ---
 
+### CSS
+Style and design beautiful, responsive websites.
+- **Beginner**: Selectors, Colors, Typography
+- **Intermediate**: Box Model, Layout, Flexbox
+- **Advanced**: Grid, Responsive Design, Animations, Advanced Techniques
+
+[Start Learning CSS →](/guide/css/)
+
+---
+
 ### JavaScript
 A complete JavaScript tutorial covering:
 - **Beginner**: Variables, Data Types, Control Flow, Functions
@@ -52,21 +64,10 @@ A complete JavaScript tutorial covering:
 
 ---
 
-## About the Author
+### TypeScript
+Type-safe JavaScript for scalable applications:
+- **Beginner**: Types, Functions, Interfaces
+- **Intermediate**: Classes, Generics, Type Manipulation
+- **Advanced**: Modules, Decorators, Declaration Files, Advanced Patterns
 
-<div class="creator-section">
-
-### Hang Senghong
-
-Full Stack Developer specializing in Frontend Development with 3+ years of experience building scalable, high-performance web applications. Skilled in automated testing and delivering exceptional user experiences.
-
-**Tech Stack:**
-- **JavaScript/TypeScript**: Vue.js, Nuxt.js, Nest.js, Express.js, Hono
-- **Frontend**: Vue.js, Nuxt.js, TypeScript, Tailwind CSS
-- **Backend**: Nest.js, Express.js, .NET Core, C#
-- **Database**: SQL Server, NoSQL (MongoDB, Firebase)
-- **Tools**: Docker, Git
-
-[Visit Portfolio →](https://senghong.pages.dev/) | [LinkedIn](https://www.linkedin.com/in/senghong/)
-
-</div>
+[Start Learning TypeScript →](/guide/typescript/)

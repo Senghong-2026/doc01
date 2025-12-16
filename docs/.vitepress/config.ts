@@ -19,6 +19,7 @@ export default defineConfig({
           { text: 'HTML', link: '/guide/html/' },
           { text: 'CSS', link: '/guide/css/' },
           { text: 'JavaScript', link: '/guide/javascript/' },
+          { text: 'TypeScript', link: '/guide/typescript/' },
           { text: 'Author', link: '/creator' }
         ],
         sidebar: {
@@ -123,6 +124,42 @@ export default defineConfig({
                     { text: 'ES6+ Features', link: '/guide/javascript/08-es6' },
                     { text: 'OOP', link: '/guide/javascript/09-oop' },
                     { text: 'Advanced Patterns', link: '/guide/javascript/10-advanced' }
+                  ]
+                }
+              ]
+            }
+          ],
+          '/guide/typescript/': [
+            {
+              text: 'TypeScript Tutorial',
+              items: [
+                { text: 'Introduction', link: '/guide/typescript/' },
+                {
+                  text: 'Beginner',
+                  collapsed: false,
+                  items: [
+                    { text: 'Basics', link: '/guide/typescript/01-basics' },
+                    { text: 'Functions', link: '/guide/typescript/02-functions' },
+                    { text: 'Objects & Interfaces', link: '/guide/typescript/03-interfaces' }
+                  ]
+                },
+                {
+                  text: 'Intermediate',
+                  collapsed: false,
+                  items: [
+                    { text: 'Classes', link: '/guide/typescript/04-classes' },
+                    { text: 'Generics', link: '/guide/typescript/05-generics' },
+                    { text: 'Type Manipulation', link: '/guide/typescript/06-type-manipulation' }
+                  ]
+                },
+                {
+                  text: 'Advanced',
+                  collapsed: false,
+                  items: [
+                    { text: 'Modules', link: '/guide/typescript/07-modules' },
+                    { text: 'Decorators', link: '/guide/typescript/08-decorators' },
+                    { text: 'Declaration Files', link: '/guide/typescript/09-declarations' },
+                    { text: 'Advanced Patterns', link: '/guide/typescript/10-advanced' }
                   ]
                 }
               ]
